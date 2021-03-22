@@ -1,0 +1,95 @@
+html, body {
+	height: 100%;
+}
+
+#wrap {
+	min-height: 75%;
+}
+
+#main {
+	overflow:auto;
+	padding-bottom:80px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+	position: relative;
+	margin-top: -80px; /* negative value of footer height */
+	height: 80px;
+	clear:both;
+	padding-top:20px;
+}
+
+.dropdown .dropdown-menu a:hover {
+	background-color: #dcdce1;
+  	color: #000;
+}
+
+.footer-custom {
+	background-color: #dcdce1;
+	padding: 60px 40px;
+	color: #000;
+}
+
+a.dropdown-item.active {
+	background-color:#D9CDCA;
+  	color: #000;
+}
+
+.anchor-black {
+	text-decoration: none;
+	color: black;
+}
+
+.image-home {
+	background: url("https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: 50% 50%;
+    height: 600px;
+    opacity: 1;
+}
+
+.presented-by{
+    color: rgb(255, 255, 255);
+	font-size: 20px;
+	margin-top: 40px;
+}
+
+.home-heading-img{
+	height: 200px;
+	margin-bottom: 50px;
+	transform: translateY(0px);
+	
+	transition: all .5s ease-in-out;
+	filter: drop-shadow(5px -5px 10px rgba(0, 0, 0, .5));
+}
+
+.home-heading-img:hover{
+	transform: translateY(-10px);
+}
+
+.home-logos{
+	padding-top: 20px;
+}
+
+.home-logo{
+	height: 120px;
+	margin-right: 30px;
+	filter: drop-shadow(5px -5px 10px rgba(0, 0, 0, .5));
+}
+
+.enext-logo{
+	clip-path: polygon(0% 0%, 0% 100%, 23% 100%, 23% 0%);
+	transition: all .5s ease-in-out;
+}
+
+
+.enext-logo:hover{
+	clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Aldrich';
+}
